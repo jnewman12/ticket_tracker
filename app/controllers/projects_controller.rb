@@ -4,19 +4,22 @@ class ProjectsController < ApplicationController
 	end
 
 	def new
-	  @project = Project.new 
+	  @project = Project.new
 	end
 
-	def create
-		@project = Project.new(project_params)
+    def create
+    @project = Project.new(project_params)
 
-		if @project.save
-			flash[:notice] = "Project has been created"
-			redirect_to @project
-		else
-			#blank
-		end
-	end
+    if @project.save
+      flash[:notice] = "Project has been created."
+
+      redirect_to @project
+    else
+      flash[:alert] = "Project has not been created."
+
+      render "new"
+    end
+  end
 
 	def show
        @project = Project.find(params[:id])
@@ -24,8 +27,8 @@ class ProjectsController < ApplicationController
 
 
 	def project_params
-		params.require(:project).permit(:name, :description)
-	end
+      params.require(:project).permit(:name, :description)
+    end
 
 
 end
