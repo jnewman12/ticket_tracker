@@ -11,7 +11,7 @@ end
   scenario "Updating a ticket" do
     fill_in "Title", with: "Make it really snappy!"
     click_button "Update Ticket"
-    expect(page).to have_content "Ticket has been updated."
+    expect(page).to have_content "Ticket has been updated"
     within("#ticket h2") do
       expect(page).to have_content("Make it really snappy!")
 end
@@ -20,6 +20,6 @@ end
   scenario "Updating a ticket with invalid information" do
     fill_in "Title", with: ""
     click_button "Update Ticket"
-    expect(page).to have_content("Ticket has not been updated.")
+    expect(page).to have_content("Ticket has not been updated")
   end
 end
