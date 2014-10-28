@@ -1,0 +1,22 @@
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/bin/ruby -r ./siteconf20141027-62106-9msotq.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling bcrypt_ext.c
+couldn't understand kern.osversion `14.0.0'
+compiling crypt.c
+couldn't understand kern.osversion `14.0.0'
+compiling crypt_blowfish.c
+couldn't understand kern.osversion `14.0.0'
+compiling crypt_gensalt.c
+couldn't understand kern.osversion `14.0.0'
+compiling wrapper.c
+couldn't understand kern.osversion `14.0.0'
+linking shared-object bcrypt_ext.bundle
+couldn't understand kern.osversion `14.0.0'
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20141027-62106-31kvxe
+installing default bcrypt_ext libraries

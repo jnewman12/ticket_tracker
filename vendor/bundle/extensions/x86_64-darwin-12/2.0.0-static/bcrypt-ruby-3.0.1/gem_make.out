@@ -1,0 +1,67 @@
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/bin/ruby -r ./siteconf20141027-37452-1iuhiy5.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling bcrypt_ext.c
+couldn't understand kern.osversion `14.0.0'
+In file included from /Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby.h:33,
+                 from bcrypt_ext.c:1:
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:51:21: error: string.h: No such file or directory
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:61:21: error: stdint.h: No such file or directory
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:64:23: error: inttypes.h: No such file or directory
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:68:19: error: stdio.h: No such file or directory
+In file included from /Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:70,
+                 from /Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby.h:33,
+                 from bcrypt_ext.c:1:
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/defines.h:29:21: error: stdlib.h: No such file or directory
+In file included from /Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:194,
+                 from /Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby.h:33,
+                 from bcrypt_ext.c:1:
+/usr/local/Cellar/apple-gcc42/4.2.1-5666.3/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h:10:25: error: limits.h: No such file or directory
+In file included from /Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:1567,
+                 from /Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby.h:33,
+                 from bcrypt_ext.c:1:
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/missing.h:23:45: error: math.h: No such file or directory
+In file included from /Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:1568,
+                 from /Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby.h:33,
+                 from bcrypt_ext.c:1:
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:36:23: error: sys/types.h: No such file or directory
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:40:22: error: sys/time.h: No such file or directory
+In file included from /Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:43,
+                 from /Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:1568,
+                 from /Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby.h:33,
+                 from bcrypt_ext.c:1:
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/st.h:140: error: expected declaration specifiers or ‘...’ before ‘uint32_t’
+In file included from /Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:1568,
+                 from /Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby.h:33,
+                 from bcrypt_ext.c:1:
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:326: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘rb_fdset_t’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:416: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:416: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:416: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:416: warning: ‘struct timeval’ declared inside parameter list
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:416: warning: its scope is only this definition or declaration, which is probably not what you want
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:417: error: expected declaration specifiers or ‘...’ before ‘rb_fdset_t’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:417: error: expected declaration specifiers or ‘...’ before ‘rb_fdset_t’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:417: error: expected declaration specifiers or ‘...’ before ‘rb_fdset_t’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:417: warning: ‘struct timeval’ declared inside parameter list
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:418: warning: ‘struct timeval’ declared inside parameter list
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:514: error: expected declaration specifiers or ‘...’ before ‘mode_t’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:593: error: expected declaration specifiers or ‘...’ before ‘pid_t’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:607: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘rb_fork’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:608: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘rb_fork_err’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:610: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘rb_waitpid’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:611: error: expected ‘)’ before ‘pid’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:612: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘rb_spawn’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:613: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘rb_spawn_err’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:615: error: expected ‘)’ before ‘pid’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:728: error: expected declaration specifiers or ‘...’ before ‘uint32_t’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:851: error: expected ‘)’ before ‘long’
+/Users/jamesnewman/.rbenv/versions/2.0.0-p247/include/ruby-2.0.0/ruby/intern.h:852: error: expected ‘)’ before ‘long’
+bcrypt_ext.c: In function ‘bc_salt’:
+bcrypt_ext.c:46: warning: incompatible implicit declaration of built-in function ‘strlen’
+make: *** [bcrypt_ext.o] Error 1
+
+make failed, exit code 2
